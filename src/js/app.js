@@ -1,4 +1,4 @@
-import Fingerprint2 from '../node_modules/fingerprintjs2'
+import Fingerprint2 from 'fingerprintjs2'
 
 Fingerprint2.get(function (components) {
     console.log(components) // an array of components: {key: ..., value: ...}
